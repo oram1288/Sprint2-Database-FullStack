@@ -1,0 +1,26 @@
+[
+  {
+    "_id": {
+      "$oid": "66a0e12766e680aa875eb895"
+    },
+    "username": "cody",
+    "email": "cody@cody",
+    "password": "$2b$10$GJFpLmSPbO2oZGYleKOnE.WIbAOLYBylIMlUbDJZQ2PpnaVbQzs1u",
+    "uuid": "4264e0b8-c868-4855-8ce2-e6458a743edf",
+    "last_updated": {
+      "$date": "2024-07-24T11:10:40.907Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66a0e9a7a425545d6983ba4e"
+    },
+    "username": "bob",
+    "email": "bob@bob",
+    "password": "$2b$10$1p5cIcz1xaPJZltntl3EEun9gGIf7CMhGVAeVZnKz5XP/QFN30vvK",
+    "uuid": "774c6b61-2560-4f60-b45c-5cd417f34874",
+    "last_updated": {
+      "$date": "2024-07-24T11:46:57.184Z"
+    }
+  }
+]
