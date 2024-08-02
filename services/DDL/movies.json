@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "movie_name": "The Shawshank Redemption",
+    "movie_genre": "Drama",
+    "movie_runtime": 142,
+    "release_date": "1994-10-14",
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 2,
+    "movie_name": "The Godfather",
+    "movie_genre": "Crime",
+    "movie_runtime": 175,
+    "release_date": "1972-03-24",
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": 3,
+    "movie_name": "The Dark Knight",
+    "movie_genre": "Action",
+    "movie_runtime": 152,
+    "release_date": "2008-07-18",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 4,
+    "movie_name": "Pulp Fiction",
+    "movie_genre": "Crime",
+    "movie_runtime": 154,
+    "release_date": "1994-10-14",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 5,
+    "movie_name": "The Lord of the Rings: The Return of the King",
+    "movie_genre": "Fantasy",
+    "movie_runtime": 201,
+    "release_date": "2003-12-17",
+    "director": "Peter Jackson"
+  },
+  {
+    "id": 6,
+    "movie_name": "Forrest Gump",
+    "movie_genre": "Drama",
+    "movie_runtime": 142,
+    "release_date": "1994-07-06",
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 7,
+    "movie_name": "Inception",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 148,
+    "release_date": "2010-07-16",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 8,
+    "movie_name": "Fight Club",
+    "movie_genre": "Drama",
+    "movie_runtime": 139,
+    "release_date": "1999-10-15",
+    "director": "David Fincher"
+  },
+  {
+    "id": 9,
+    "movie_name": "The Matrix",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 136,
+    "release_date": "1999-03-31",
+    "director": "The Wachowskis"
+  },
+  {
+    "id": 10,
+    "movie_name": "Goodfellas",
+    "movie_genre": "Crime",
+    "movie_runtime": 146,
+    "release_date": "1990-09-19",
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 11,
+    "movie_name": "The Empire Strikes Back",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 124,
+    "release_date": "1980-05-21",
+    "director": "Irvin Kershner"
+  },
+  {
+    "id": 12,
+    "movie_name": "Interstellar",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 169,
+    "release_date": "2014-11-07",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 13,
+    "movie_name": "City of God",
+    "movie_genre": "Crime",
+    "movie_runtime": 130,
+    "release_date": "2002-08-30",
+    "director": "Fernando Meirelles"
+  },
+  {
+    "id": 14,
+    "movie_name": "Spirited Away",
+    "movie_genre": "Animation",
+    "movie_runtime": 125,
+    "release_date": "2001-07-20",
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 15,
+    "movie_name": "Saving Private Ryan",
+    "movie_genre": "Drama",
+    "movie_runtime": 169,
+    "release_date": "1998-07-24",
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 16,
+    "movie_name": "The Green Mile",
+    "movie_genre": "Drama",
+    "movie_runtime": 189,
+    "release_date": "1999-12-10",
+    "director": "Frank Darabont"
+  },
+  {
+    "id": 17,
+    "movie_name": "The Silence of the Lambs",
+    "movie_genre": "Thriller",
+    "movie_runtime": 118,
+    "release_date": "1991-02-14",
+    "director": "Jonathan Demme"
+  },
+  {
+    "id": 18,
+    "movie_name": "Se7en",
+    "movie_genre": "Thriller",
+    "movie_runtime": 127,
+    "release_date": "1995-09-22",
+    "director": "David Fincher"
+  },
+  {
+    "id": 19,
+    "movie_name": "The Usual Suspects",
+    "movie_genre": "Crime",
+    "movie_runtime": 106,
+    "release_date": "1995-08-16",
+    "director": "Bryan Singer"
+  },
+  {
+    "id": 20,
+    "movie_name": "Schindler's List",
+    "movie_genre": "Drama",
+    "movie_runtime": 195,
+    "release_date": "1993-12-15",
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 21,
+    "movie_name": "The Lion King",
+    "movie_genre": "Animation",
+    "movie_runtime": 88,
+    "release_date": "1994-06-15",
+    "director": "Roger Allers"
+  },
+  {
+    "id": 22,
+    "movie_name": "Gladiator",
+    "movie_genre": "Action",
+    "movie_runtime": 155,
+    "release_date": "2000-05-05",
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 23,
+    "movie_name": "Terminator 2: Judgment Day",
+    "movie_genre": "Action",
+    "movie_runtime": 137,
+    "release_date": "1991-07-03",
+    "director": "James Cameron"
+  },
+  {
+    "id": 24,
+    "movie_name": "Back to the Future",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 116,
+    "release_date": "1985-07-03",
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 25,
+    "movie_name": "The Departed",
+    "movie_genre": "Crime",
+    "movie_runtime": 151,
+    "release_date": "2006-10-06",
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 26,
+    "movie_name": "Whiplash",
+    "movie_genre": "Drama",
+    "movie_runtime": 106,
+    "release_date": "2014-10-10",
+    "director": "Damien Chazelle"
+  },
+  {
+    "id": 27,
+    "movie_name": "The Prestige",
+    "movie_genre": "Drama",
+    "movie_runtime": 130,
+    "release_date": "2006-10-20",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 28,
+    "movie_name": "The Dark Knight Rises",
+    "movie_genre": "Action",
+    "movie_runtime": 164,
+    "release_date": "2012-07-20",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 29,
+    "movie_name": "Alien",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 117,
+    "release_date": "1979-05-25",
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 30,
+    "movie_name": "Memento",
+    "movie_genre": "Thriller",
+    "movie_runtime": 113,
+    "release_date": "2000-10-11",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 31,
+    "movie_name": "Apocalypse Now",
+    "movie_genre": "Drama",
+    "movie_runtime": 153,
+    "release_date": "1979-08-15",
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": 32,
+    "movie_name": "Django Unchained",
+    "movie_genre": "Drama",
+    "movie_runtime": 165,
+    "release_date": "2012-12-25",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 33,
+    "movie_name": "Blade Runner 2049",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 164,
+    "release_date": "2017-10-06",
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 34,
+    "movie_name": "The Shining",
+    "movie_genre": "Horror",
+    "movie_runtime": 146,
+    "release_date": "1980-05-23",
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 35,
+    "movie_name": "WALL-E",
+    "movie_genre": "Animation",
+    "movie_runtime": 98,
+    "release_date": "2008-06-27",
+    "director": "Andrew Stanton"
+  },
+  {
+    "id": 36,
+    "movie_name": "Oldboy",
+    "movie_genre": "Thriller",
+    "movie_runtime": 120,
+    "release_date": "2003-11-21",
+    "director": "Park Chan-wook"
+  },
+  {
+    "id": 37,
+    "movie_name": "Princess Mononoke",
+    "movie_genre": "Animation",
+    "movie_runtime": 134,
+    "release_date": "1997-07-12",
+    "director": "Hayao Miyazaki"
+  },
+  {
+    "id": 38,
+    "movie_name": "The Wolf of Wall Street",
+    "movie_genre": "Biography",
+    "movie_runtime": 180,
+    "release_date": "2013-12-25",
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 39,
+    "movie_name": "Avengers: Endgame",
+    "movie_genre": "Action",
+    "movie_runtime": 181,
+    "release_date": "2019-04-26",
+    "director": "Anthony Russo"
+  },
+  {
+    "id": 40,
+    "movie_name": "Braveheart",
+    "movie_genre": "Biography",
+    "movie_runtime": 178,
+    "release_date": "1995-05-24",
+    "director": "Mel Gibson"
+  },
+  {
+    "id": 41,
+    "movie_name": "Toy Story",
+    "movie_genre": "Animation",
+    "movie_runtime": 81,
+    "release_date": "1995-11-22",
+    "director": "John Lasseter"
+  },
+  {
+    "id": 42,
+    "movie_name": "Reservoir Dogs",
+    "movie_genre": "Crime",
+    "movie_runtime": 99,
+    "release_date": "1992-10-23",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 43,
+    "movie_name": "Amélie",
+    "movie_genre": "Comedy",
+    "movie_runtime": 122,
+    "release_date": "2001-04-25",
+    "director": "Jean-Pierre Jeunet"
+  },
+  {
+    "id": 44,
+    "movie_name": "Inglourious Basterds",
+    "movie_genre": "Adventure",
+    "movie_runtime": 153,
+    "release_date": "2009-08-21",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 45,
+    "movie_name": "Finding Nemo",
+    "movie_genre": "Animation",
+    "movie_runtime": 100,
+    "release_date": "2003-05-30",
+    "director": "Andrew Stanton"
+  },
+  {
+    "id": 46,
+    "movie_name": "Raiders of the Lost Ark",
+    "movie_genre": "Action",
+    "movie_runtime": 115,
+    "release_date": "1981-06-12",
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 47,
+    "movie_name": "Mad Max: Fury Road",
+    "movie_genre": "Action",
+    "movie_runtime": 120,
+    "release_date": "2015-05-15",
+    "director": "George Miller"
+  },
+  {
+    "id": 48,
+    "movie_name": "The Truman Show",
+    "movie_genre": "Comedy",
+    "movie_runtime": 103,
+    "release_date": "1998-06-05",
+    "director": "Peter Weir"
+  },
+  {
+    "id": 49,
+    "movie_name": "Die Hard",
+    "movie_genre": "Action",
+    "movie_runtime": 132,
+    "release_date": "1988-07-15",
+    "director": "John McTiernan"
+  },
+  {
+    "id": 50,
+    "movie_name": "Monsters, Inc.",
+    "movie_genre": "Animation",
+    "movie_runtime": 92,
+    "release_date": "2001-11-02",
+    "director": "Pete Docter"
+  },
+  {
+    "id": 51,
+    "movie_name": "Jurassic Park",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 127,
+    "release_date": "1993-06-11",
+    "director": "Steven Spielberg"
+  },
+  {
+    "id": 52,
+    "movie_name": "Eternal Sunshine of the Spotless Mind",
+    "movie_genre": "Drama",
+    "movie_runtime": 108,
+    "release_date": "2004-03-19",
+    "director": "Michel Gondry"
+  },
+  {
+    "id": 53,
+    "movie_name": "The Grand Budapest Hotel",
+    "movie_genre": "Comedy",
+    "movie_runtime": 99,
+    "release_date": "2014-03-28",
+    "director": "Wes Anderson"
+  },
+  {
+    "id": 54,
+    "movie_name": "Pan's Labyrinth",
+    "movie_genre": "Drama",
+    "movie_runtime": 118,
+    "release_date": "2006-10-20",
+    "director": "Guillermo del Toro"
+  },
+  {
+    "id": 55,
+    "movie_name": "The Big Lebowski",
+    "movie_genre": "Comedy",
+    "movie_runtime": 117,
+    "release_date": "1998-03-06",
+    "director": "Joel Coen"
+  },
+  {
+    "id": 56,
+    "movie_name": "12 Angry Men",
+    "movie_genre": "Drama",
+    "movie_runtime": 96,
+    "release_date": "1957-04-10",
+    "director": "Sidney Lumet"
+  },
+  {
+    "id": 57,
+    "movie_name": "Vertigo",
+    "movie_genre": "Mystery",
+    "movie_runtime": 128,
+    "release_date": "1958-05-09",
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 58,
+    "movie_name": "Psycho",
+    "movie_genre": "Horror",
+    "movie_runtime": 109,
+    "release_date": "1960-09-08",
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 59,
+    "movie_name": "Lawrence of Arabia",
+    "movie_genre": "Adventure",
+    "movie_runtime": 218,
+    "release_date": "1962-12-11",
+    "director": "David Lean"
+  },
+  {
+    "id": 60,
+    "movie_name": "A Clockwork Orange",
+    "movie_genre": "Crime",
+    "movie_runtime": 136,
+    "release_date": "1971-12-19",
+    "director": "Stanley Kubrick"
+  },
+  {
+    "id": 61,
+    "movie_name": "The Good, the Bad and the Ugly",
+    "movie_genre": "Western",
+    "movie_runtime": 178,
+    "release_date": "1966-12-23",
+    "director": "Sergio Leone"
+  },
+  {
+    "id": 62,
+    "movie_name": "Rear Window",
+    "movie_genre": "Mystery",
+    "movie_runtime": 112,
+    "release_date": "1954-09-01",
+    "director": "Alfred Hitchcock"
+  },
+  {
+    "id": 63,
+    "movie_name": "Casablanca",
+    "movie_genre": "Romance",
+    "movie_runtime": 102,
+    "release_date": "1942-11-26",
+    "director": "Michael Curtiz"
+  },
+  {
+    "id": 64,
+    "movie_name": "Once Upon a Time in the West",
+    "movie_genre": "Western",
+    "movie_runtime": 165,
+    "release_date": "1968-12-21",
+    "director": "Sergio Leone"
+  },
+  {
+    "id": 65,
+    "movie_name": "Modern Times",
+    "movie_genre": "Comedy",
+    "movie_runtime": 87,
+    "release_date": "1936-02-25",
+    "director": "Charlie Chaplin"
+  },
+  {
+    "id": 66,
+    "movie_name": "City Lights",
+    "movie_genre": "Comedy",
+    "movie_runtime": 87,
+    "release_date": "1931-03-07",
+    "director": "Charlie Chaplin"
+  },
+  {
+    "id": 67,
+    "movie_name": "The Great Dictator",
+    "movie_genre": "Comedy",
+    "movie_runtime": 125,
+    "release_date": "1940-10-15",
+    "director": "Charlie Chaplin"
+  },
+  {
+    "id": 68,
+    "movie_name": "Singin' in the Rain",
+    "movie_genre": "Comedy",
+    "movie_runtime": 103,
+    "release_date": "1952-04-10",
+    "director": "Stanley Donen"
+  },
+  {
+    "id": 69,
+    "movie_name": "A Beautiful Mind",
+    "movie_genre": "Biography",
+    "movie_runtime": 135,
+    "release_date": "2001-12-21",
+    "director": "Ron Howard"
+  },
+  {
+    "id": 70,
+    "movie_name": "The Hurt Locker",
+    "movie_genre": "Drama",
+    "movie_runtime": 131,
+    "release_date": "2008-10-10",
+    "director": "Kathryn Bigelow"
+  },
+  {
+    "id": 71,
+    "movie_name": "Black Swan",
+    "movie_genre": "Drama",
+    "movie_runtime": 108,
+    "release_date": "2010-12-03",
+    "director": "Darren Aronofsky"
+  },
+  {
+    "id": 72,
+    "movie_name": "Her",
+    "movie_genre": "Romance",
+    "movie_runtime": 126,
+    "release_date": "2013-12-18",
+    "director": "Spike Jonze"
+  },
+  {
+    "id": 73,
+    "movie_name": "12 Years a Slave",
+    "movie_genre": "Biography",
+    "movie_runtime": 134,
+    "release_date": "2013-10-18",
+    "director": "Steve McQueen"
+  },
+  {
+    "id": 74,
+    "movie_name": "Inside Out",
+    "movie_genre": "Animation",
+    "movie_runtime": 95,
+    "release_date": "2015-06-19",
+    "director": "Pete Docter"
+  },
+  {
+    "id": 75,
+    "movie_name": "Get Out",
+    "movie_genre": "Horror",
+    "movie_runtime": 104,
+    "release_date": "2017-02-24",
+    "director": "Jordan Peele"
+  },
+  {
+    "id": 76,
+    "movie_name": "Moonlight",
+    "movie_genre": "Drama",
+    "movie_runtime": 111,
+    "release_date": "2016-10-21",
+    "director": "Barry Jenkins"
+  },
+  {
+    "id": 77,
+    "movie_name": "The Wolf of Wall Street",
+    "movie_genre": "Biography",
+    "movie_runtime": 180,
+    "release_date": "2013-12-25",
+    "director": "Martin Scorsese"
+  },
+  {
+    "id": 78,
+    "movie_name": "Guardians of the Galaxy",
+    "movie_genre": "Action",
+    "movie_runtime": 121,
+    "release_date": "2014-08-01",
+    "director": "James Gunn"
+  },
+  {
+    "id": 79,
+    "movie_name": "Django Unchained",
+    "movie_genre": "Western",
+    "movie_runtime": 165,
+    "release_date": "2012-12-25",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 80,
+    "movie_name": "Spotlight",
+    "movie_genre": "Biography",
+    "movie_runtime": 129,
+    "release_date": "2015-11-06",
+    "director": "Tom McCarthy"
+  },
+  {
+    "id": 81,
+    "movie_name": "The Big Short",
+    "movie_genre": "Biography",
+    "movie_runtime": 130,
+    "release_date": "2015-12-23",
+    "director": "Adam McKay"
+  },
+  {
+    "id": 82,
+    "movie_name": "The Shape of Water",
+    "movie_genre": "Fantasy",
+    "movie_runtime": 123,
+    "release_date": "2017-12-08",
+    "director": "Guillermo del Toro"
+  },
+  {
+    "id": 83,
+    "movie_name": "Arrival",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 116,
+    "release_date": "2016-11-11",
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 84,
+    "movie_name": "The Martian",
+    "movie_genre": "Adventure",
+    "movie_runtime": 144,
+    "release_date": "2015-10-02",
+    "director": "Ridley Scott"
+  },
+  {
+    "id": 85,
+    "movie_name": "Blade Runner 2049",
+    "movie_genre": "Sci-Fi",
+    "movie_runtime": 164,
+    "release_date": "2017-10-06",
+    "director": "Denis Villeneuve"
+  },
+  {
+    "id": 86,
+    "movie_name": "Three Billboards Outside Ebbing, Missouri",
+    "movie_genre": "Crime",
+    "movie_runtime": 115,
+    "release_date": "2017-11-10",
+    "director": "Martin McDonagh"
+  },
+  {
+    "id": 87,
+    "movie_name": "Joker",
+    "movie_genre": "Crime",
+    "movie_runtime": 122,
+    "release_date": "2019-10-04",
+    "director": "Todd Phillips"
+  },
+  {
+    "id": 88,
+    "movie_name": "Marriage Story",
+    "movie_genre": "Drama",
+    "movie_runtime": 137,
+    "release_date": "2019-11-06",
+    "director": "Noah Baumbach"
+  },
+  {
+    "id": 89,
+    "movie_name": "Jojo Rabbit",
+    "movie_genre": "Comedy",
+    "movie_runtime": 108,
+    "release_date": "2019-11-08",
+    "director": "Taika Waititi"
+  },
+  {
+    "id": 90,
+    "movie_name": "Ford v Ferrari",
+    "movie_genre": "Action",
+    "movie_runtime": 152,
+    "release_date": "2019-11-15",
+    "director": "James Mangold"
+  },
+  {
+    "id": 91,
+    "movie_name": "1917",
+    "movie_genre": "War",
+    "movie_runtime": 119,
+    "release_date": "2019-12-25",
+    "director": "Sam Mendes"
+  },
+  {
+    "id": 92,
+    "movie_name": "Once Upon a Time in Hollywood",
+    "movie_genre": "Comedy",
+    "movie_runtime": 161,
+    "release_date": "2019-07-26",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 93,
+    "movie_name": "A Star is Born",
+    "movie_genre": "Drama",
+    "movie_runtime": 136,
+    "release_date": "2018-10-05",
+    "director": "Bradley Cooper"
+  },
+  {
+    "id": 94,
+    "movie_name": "Frozen",
+    "movie_genre": "Animation",
+    "movie_runtime": 102,
+    "release_date": "2013-11-27",
+    "director": "Chris Buck, Jennifer Lee"
+  },
+  {
+    "id": 95,
+    "movie_name": "Toy Story 3",
+    "movie_genre": "Animation",
+    "movie_runtime": 103,
+    "release_date": "2010-06-18",
+    "director": "Lee Unkrich"
+  },
+  {
+    "id": 96,
+    "movie_name": "Zootopia",
+    "movie_genre": "Animation",
+    "movie_runtime": 108,
+    "release_date": "2016-03-04",
+    "director": "Byron Howard, Rich Moore"
+  },
+  {
+    "id": 97,
+    "movie_name": "The Dark Knight Rises",
+    "movie_genre": "Action",
+    "movie_runtime": 164,
+    "release_date": "2012-07-20",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 98,
+    "movie_name": "Iron Man",
+    "movie_genre": "Action",
+    "movie_runtime": 126,
+    "release_date": "2008-05-02",
+    "director": "Jon Favreau"
+  },
+  {
+    "id": 99,
+    "movie_name": "The Lord of the Rings: The Fellowship of the Ring",
+    "movie_genre": "Adventure",
+    "movie_runtime": 178,
+    "release_date": "2001-12-19",
+    "director": "Peter Jackson"
+  },
+  {
+    "id": 100,
+    "movie_name": "The Lord of the Rings: The Two Towers",
+    "movie_genre": "Adventure",
+    "movie_runtime": 179,
+    "release_date": "2002-12-18",
+    "director": "Peter Jackson"
+  }
+]
