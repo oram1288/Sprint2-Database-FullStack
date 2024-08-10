@@ -7,7 +7,7 @@ var getFullText = function (text) {
     WHERE director iLIKE '%'||$1||'%' \
         OR movie_name iLIKE '%'||$1||'%' \
         OR movie_genre iLIKE '%'||$1||'%'\
-        OR movie_runtime iLIKE '%'||$1||'%'`;
+        OR CAST(movie_runtime AS VARCHAR) iLIKE '%'||$1||'%'`;
 
     //  const sql = `SELECT movie_name, director FROM movies \
     //     WHERE director iLIKE '%'||$1||'%' \
