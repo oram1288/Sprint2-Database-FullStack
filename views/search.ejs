@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/public/styles.css">
     <title>Search</title>
 </head>
 <body>
@@ -12,19 +13,19 @@
                 </br> 
                 <% if (theResults.length > 0) { %>
                     <% theResults.forEach(item => { %>
-                        <b><%= item.movie_name %> <%= item.movie_genre %></b> - 
+                        <b><%= item.movie_name %></b> - <%= item.movie_genre %> - 
                         <%= item.director %> </br>
                     <% }) %>
                 <% } else { %>
                     <p>No search results.</p>
                 <% } %>
-            </br><label>Movie Search:</label></br>
+            </br><label>Search for Movies:</label></br></br>
             <label>Keyword:
                 <input type="text" id="keyword" name="keyword" value="<%= locals.keyword %>" required>
             </label>
             </br>
             <button>POST</button>
-        </form>
+        </form></br>
         </div>
         <%- include('./partials/status.ejs') %>
         </br>

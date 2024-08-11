@@ -1,0 +1,20 @@
+/* Index */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
