@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="/public/styles.css">
-    <title>Login</title>
-</head>
+	<%- include('./partials/header.ejs') %>
 <body>
     <%- include('./partials/nav.ejs') %>
-		<div class="login">
-			<h1>Login</h1>
-			<h2>Please Enter your information below!</h2>
+		<div class="loginPage">
+			<h2>Login</h2>
+			<h3>Please Enter your information below!</h3>
 			<form action="/auth" method="post">
-				<label for="username"></label>
-				<input type="text" name="username" placeholder="Username" id="username" required></br>
-				<label for="password"></label>
-				<input type="password" name="password" placeholder="Password" id="password" required></br>
+				<label for="username">Username</label></br>
+				<input type="text" name="username" placeholder="Username" id="username" required></br></br>
+				<label for="password">Password</label></br>
+				<input type="password" name="password" placeholder="Password" id="password" required></br></br>
 				<input type="submit" value="Login">
 			</form>
         </div>
 		<%- include('./partials/status.ejs') %>
-		</br>
+		</br></br>
         <%- include('./partials/auth.ejs') %>
+		</br>
+    	<%- include('./partials/footer.ejs') %>
 </body>
 </html>
