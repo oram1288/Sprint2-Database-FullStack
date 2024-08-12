@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<body>
+    <%- include('./partials/header.ejs') %>
+<body >
     <body>
         <%- include('./partials/nav.ejs') %>
-        <div class="content">
+        <div class="indexPage">
             <h2>Welcome!</h2>
-            <p>We specialize in creating handcrafted modern furniture that combines timeless 
-                design with modern functionality. Our collections range from sofas, dining tables, 
-                bedroom sets, and more! Whether you’re looking for a statement piece or a complete 
-                home makeover, our diverse range of products is designed to cater to all tastes and styles.
+            <p>Movie+ was born out of a shared love for movies and a desire to create 
+                a space where people could come together to enjoy and discuss cinema. 
+                From Hollywood blockbusters to indie gems, our extensive library covers 
+                a wide range of genres, eras, and styles. Our database is continuously 
+                updated to ensure you have access to the latest releases as well as timeless classics.
             </p>
         </div>
         <%- include('./partials/status.ejs') %>
-        </br>
+        </br></br>
         <%- include('./partials/auth.ejs') %>
+        </br>
+        <%- include('./partials/footer.ejs') %>
     </body>
 </body>
-</html>
+</html> 

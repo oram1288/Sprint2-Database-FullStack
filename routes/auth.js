@@ -5,8 +5,8 @@ const jwt = require("jsonwebtoken");
 const router = express.Router();
 const myEventEmitter = require("../services/logEvents.js");
 
-const { addLogin, getLoginByUsername } = require("../services/p.auth.dal");
-// const { addLogin, getLoginByUsername } = require("../services/m.auth.dal");
+// const { addLogin, getLoginByUsername } = require("../services/p.auth.dal");
+const { addLogin, getLoginByUsername } = require("../services/m.auth.dal");
 
 router.get("/", (req, res) => {
   if (DEBUG) console.log("login page: ");

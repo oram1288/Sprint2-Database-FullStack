@@ -1,27 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(67, 98, 252);
+            text-align: center;
+            height: auto;
+        }
+
+        h1 {
+            color: rgb(244, 250, 51);
+            font-size: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        p {
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin-top: 40px;
+        }
+        .registerPage {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .auth {
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        a {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            text-decoration: none;
+            padding: 30px;
+        }
+
+        a:hover {
+            color: rgb(244, 250, 51);
+        }
+
+        footer {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        status {
+            color: rgb(244, 250, 51);
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+
+    <%- include('./partials/header.ejs') %>
 <body>
     <%- include('./partials/nav.ejs') %>
-    <div class="content">
-        <h1>Register</h1>
-        <h2>Please Enter your information below!</h2>
-        <form action="/auth/new" method="POST">
-            <label for="username">Name</label>
-            <input type="text" id="username" name="username" required></br>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required></br>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required></br>
-            <input type="submit" value="Register">
-        </form>
-    </div>
-    <%- include('./partials/status.ejs') %>
-</br>
-<%- include('./partials/auth.ejs') %>
+        <div class="registerPage">
+            <h2 class="blue">Register</h2>
+            <h3>Please Enter your information below!</h3>
+            <form action="/auth/new" method="POST">
+                <label for="username">Name</label></br>
+                <input type="text" id="username" name="username" required></br></br>
+                <label for="email">Email</label></br>
+                <input type="email" id="email" name="email" required></br></br>
+                <label for="password">Password</label></br>
+                <input type="password" id="password" name="password" required></br></br>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        <%- include('./partials/status.ejs') %>
+        </br></br>
+        <%- include('./partials/auth.ejs') %>
+        </br>
+        <%- include('./partials/footer.ejs') %>
 </body>
 </html>

@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
-</head>
+    <%- include('./partials/header.ejs') %>
 <body>
     <%- include('./partials/nav.ejs') %>
-        <div class="search content">
+        <div class="searchPage">
             <form action="/search" method="POST">
                 </br> 
                 <% if (theResults.length > 0) { %>
                     <% theResults.forEach(item => { %>
-                        <b><%= item.movie_name %> <%= item.movie_genre %></b> - 
-                        <%= item.director %> </br>
+                        <b>- <%= item.movie_name %></b> - <%= item.movie_genre %> - 
+                        <%= item.director %> </br></br>
                     <% }) %>
                 <% } else { %>
                     <p>No search results.</p>
                 <% } %>
-            </br><label>Movie Search:</label></br>
+                <h2>Search for Movies!</h2>
+            <!-- </br><label>Search for Movies:</label></br></br> -->
             <label>Keyword:
                 <input type="text" id="keyword" name="keyword" value="<%= locals.keyword %>" required>
             </label>
-            </br>
+            </br></br>
             <button>POST</button>
-        </form>
+        </form></br>
         </div>
         <%- include('./partials/status.ejs') %>
-        </br>
+        </br></br>
         <%- include('./partials/auth.ejs') %>
+        </br>
+        <%- include('./partials/footer.ejs') %>
 </body>
 </html>
