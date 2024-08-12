@@ -1,8 +1,8 @@
 const bcrypt = require("bcrypt");
 const uuid = require("uuid");
 const router = require("express").Router();
-const dal = require("../../services/p.auth.dal");
-// const dal = require('../../services/m.auth.dal');
+// const dal = require("../../services/p.auth.dal");
+const dal = require("../../services/m.auth.dal");
 
 // api/auth/:id
 router.get("/:_id", async (req, res) => {

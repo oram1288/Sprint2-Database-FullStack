@@ -1,0 +1,105 @@
+/* Index */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(67, 98, 252);
+  text-align: center;
+  height: auto;
+}
+
+h1 {
+  color: rgb(244, 250, 51);
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.indexPage {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* About */
+
+.aboutPage {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Nav and Auth */
+
+nav {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.auth {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px;
+}
+
+a:hover {
+  color: rgb(244, 250, 51);
+}
+
+/* Login */
+
+.loginPage {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Register */
+
+.registerPage {
+  background-color: rgb(167, 47, 47);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Status */
+
+status {
+  color: rgb(244, 250, 51);
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Search */
+
+.searchPage {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-bottom: 20px;
+}
