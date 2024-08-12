@@ -53,14 +53,14 @@ nav {
 }
 
 a {
-  color: rgb(0, 0, 0);
+  color: rgb(244, 250, 51);
   font-size: 20px;
   text-decoration: none;
   padding: 30px;
 }
 
 a:hover {
-  color: rgb(244, 250, 51);
+  color: rgb(25, 13, 151);
 }
 
 /* Login */
