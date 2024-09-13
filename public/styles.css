@@ -1,7 +1,7 @@
 /* Index */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   padding: 0;
   background-color: rgb(67, 98, 252);
@@ -11,7 +11,8 @@ body {
 
 h1 {
   color: rgb(244, 250, 51);
-  font-size: 40px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -27,17 +28,31 @@ p {
 }
 
 .indexPage {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 241, 241);
   padding: 20px;
-  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* About */
 
 .aboutPage {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 241, 241);
   padding: 20px;
-  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* Nav and Auth */
@@ -48,8 +63,22 @@ nav {
 }
 
 .auth {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   text-align: center;
+}
+
+.button {
+  background-color: rgb(244, 250, 51);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  color: rgb(25, 13, 151);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 10px;
+  cursor: pointer;
 }
 
 a {
@@ -61,31 +90,52 @@ a {
 
 a:hover {
   color: rgb(25, 13, 151);
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: rgb(25, 13, 151);
+}
+
+.bottom-nav {
+  text-align: center;
 }
 
 /* Login */
 
 .loginPage {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 241, 241);
   padding: 20px;
-  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* Register */
 
 .registerPage {
-  background-color: rgb(167, 47, 47);
+  background-color: rgb(241, 241, 241);
   padding: 20px;
-  margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* Footer */
 
 footer {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 241, 241);
   padding: 20px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* Status */
@@ -102,4 +152,12 @@ status {
   background-color: rgb(255, 255, 255);
   padding: 20px;
   margin-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px;
 }
