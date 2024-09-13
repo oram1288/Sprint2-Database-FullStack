@@ -14,6 +14,8 @@ h1 {
   font-size: 50px;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 
 h2 {
