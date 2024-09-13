@@ -15,12 +15,11 @@
                     <p>No search results.</p>
                 <% } %>
                 <h2>Search for Movies!</h2>
-            <!-- </br><label>Search for Movies:</label></br></br> -->
             <label>Keyword:
                 <input type="text" id="keyword" name="keyword" value="<%= locals.keyword %>" required>
             </label>
             </br></br>
-            <button>POST</button>
+            <button class="button">POST</button>
         </form></br>
         </div>
         <%- include('./partials/status.ejs') %>
@@ -28,5 +27,19 @@
         <%- include('./partials/auth.ejs') %>
         </br>
         <%- include('./partials/footer.ejs') %>
+
+        <!-- <script>
+            document.getElementById('switch-db').addEventListener('click', function() {
+                fetch('/search/switch-db', {
+                    method: 'POST'
+                }).then(response => {
+                    if (response.ok) {
+                        alert('Database switched successfully');
+                    } else {
+                        alert('Failed to switch database');
+                    }
+                });
+            });
+        </script> -->
 </body>
 </html>
